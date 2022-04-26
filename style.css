@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("1.png");
+    background-color: #d4dcef;
+    background-size: cover;
+    align-items: center;
+}
+
+.imgae {
+    display: flex;
+    position: sticky;
+}
+
+.imgae img {
+    margin-left: 15%;
+    position: static;
+}
+
+.imgae h1 {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 4%;
+    font-size: 20px;
+    height: 20px;
+    position: static;
+}
+
+.flex-container {
+    background-color: #99a9cf;
+    height: 45%;
+    width: 45%;
+    margin-top: 3%;
+    align-items: center;
+    border: 1px solid #343946;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 27%;
+}
+
+.flex-container .one {
+    background-color: #b8c3e0;
+    height: 80%;
+    width: 90%;
+    align-items: center;
+    border: 1px solid #343946;
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-between;
+}
+
+.flex-container .two {
+    background-color: #d4dcef;
+    height: 78%;
+    width: 90%;
+    align-items: center;
+    border: 1px solid #343946;
+    margin-left: 5%;
+    justify-content: space-between;
+}
+
+.flex-container .two .text {
+    margin-top: 6%;
+    width: 90%;
+    margin-left: 4%;
+    display: flex;
+}
+
+.flex-container .two .text h1 {
+    font-size: 14px;
+}
+
+.flex-container .two .para {
+    width: 90%;
+    margin-top: 3%;
+    display: flex;
+    margin-left: 4%;
+}
+
+.flex-container .two .para p {
+    font-size: 12px;
+}
+
+.flex-container .two .para p a {
+    display: inline-flex;
+    text-decoration: underline;
+    color: #343946;
+}
+
+.flex-container .two .parasecond {
+    width: 90%;
+    margin-top: 3%;
+    display: flex;
+    margin-left: 4%;
+}
+
+.flex-container .two .parasecond p {
+    font-size: 12px;
+    color: black;
+}
+
+.flex-container .two .parasecond p a {
+    display: inline-flex;
+    text-decoration: underline;
+    color: #343946;
+}
+
+.textbottom {
+    width: 6%;
+    margin-left: 47%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.images {
+    margin-left: 45%;
+    width: 10%;
+    position: absolute;
+}
+
+.images img {
+    width: 120px;
+    height: 80px;
+}
